@@ -2,6 +2,13 @@
 body {
   /* width: 100%; */
   width: 1100px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  /* line-height: 120%; */
+  letter-spacing: 0%;
+
 }
 
 .overlay {
@@ -51,10 +58,17 @@ body {
 
 .lots-list {
   display: flex;
-  
   justify-content: space-around;
+  flex-wrap: wrap;
   gap: 24px;
   list-style: none;
+}
+
+.card-link {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
 }
 
 .lot-card {
@@ -68,8 +82,9 @@ body {
 .lot-cover {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-content: center;
+  justify-content: space-between;
+  align-self: center;
+  padding: 15% 10% 15% 10%;
 }
 
 .lot-1 {
