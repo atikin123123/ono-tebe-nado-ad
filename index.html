@@ -12,9 +12,9 @@
     <header class="header">
       <nav>
         <ul class="nav-header">
-          <li class="current">главная</li>
-          <li><a href="#">посмотреть лоты</a></li>
-          <li><a href="#">об аукционе</a></li>
+          <li class="current"><a href="#cover">главная</a></li>
+          <li><a href="#lots">посмотреть лоты</a></li>
+          <li><a href="#about">об аукционе</a></li>
         </ul>
       </nav>
 
@@ -29,8 +29,8 @@
       </address>
     </header>
 
-    <main>
-      <section class="cover">
+    <main class="main">
+      <section class="cover" id="cover">
         <div class="overlay">
           <h1 class="cover-title">
             <span>Оно</span>
@@ -44,8 +44,8 @@
         </div>
       </section>
 
-      <section>
-        <h1 class="lots__title">Лоты</h1>
+      <section id="lots">
+        <h1 class="lots-title">Лоты</h1>
         <ul class="lots-list">
           <li>
             <div class="lot-card lot-1">
@@ -96,10 +96,10 @@
             </div>
           </li>
         </ul>
-        <a href="#0">посмотреть больше</a>
+       <a href="#0" class="lots-link">посмотреть больше</a>
       </section>
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="about-logo">
           <img src="images/logo-white.svg" alt="Логотип" class="logo" />
         </div>
@@ -124,25 +124,25 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <address class="contacts">
         <a href="#">+9 999 555 5555</a>
         <a href="#">info@sobaka.ge</a>
-        <p>наб. Принсенграхт 263- 265, Амстердам</p>
+        <p>наб. Принсенграхт 263- 265, <br> Амстердам</p>
       </address>
 
       <nav>
         <ul class="nav-footer">
-          <li class="current">главная</li>
-          <li><a href="#">посмотреть лоты</a></li>
-          <li><a href="#">об аукционе</a></li>
+          <li class="current"><a href="#cover">главная</a></li>
+          <li><a href="#lots">посмотреть лоты</a></li>
+          <li><a href="#about">об аукционе</a></li>
         </ul>
       </nav>
 
       <div class="social">
-        <a href="#0"><img src="images/yt.svg" alt="youtube" /></a>
-        <a href="#0"><img src="images/vk.svg" alt="vkontakte" /></a>
-        <a href="#0"><img src="images/pinterest.svg" alt="pinterest" /></a>
+        <a href="#0"><img src="images/yt.svg" alt="youtube" class="social-logo"/></a>
+        <a href="#0"><img src="images/vk.svg" alt="vkontakte" class="social-logo"/></a>
+        <a href="#0"><img src="images/pinterest.svg" alt="pinterest" class="social-logo"/></a>
       </div>
     </footer>
   </body>
