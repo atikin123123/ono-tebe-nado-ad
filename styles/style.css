@@ -55,15 +55,15 @@ body {
 }
 
 .cover-title {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 100px;
-  text-transform: uppercase;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 15% 5% 0 5%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 100px;
   letter-spacing: 25%;
+  text-transform: uppercase;
 }
 .cover-title span:first-child {
   align-self: start;
@@ -86,8 +86,8 @@ body {
   padding-bottom: 5%;
   font-weight: 0;
   font-size: 22px;
-  word-spacing: 10px;
   text-transform: uppercase;
+  word-spacing: 10px;
 }
 
 .cover-button {
@@ -110,12 +110,12 @@ body {
 }
 
 .lots-title {
+  margin-bottom: 2%;
+  padding-left: 5%;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-  padding-left: 5%;
-  margin-bottom: 2%;
 }
 
 .lots-list {
@@ -163,8 +163,8 @@ body {
 
 .lots-link {
   display: block;
-  padding-left: 5%;
   padding-top: 2%;
+  padding-left: 5%;
 }
 
 .about {
@@ -211,9 +211,9 @@ body {
 
 .social {
   display: flex;
-  Justify-content: space-between;
   width: 240px;
   height: 48px;
+  Justify-content: space-between;
 }
 
 .social-logo {
